@@ -1,0 +1,19 @@
+
+backend:
+  name: github
+  repo: walktheworld365/shopwalktheworld365
+  branch: main
+
+media_folder: ""
+public_folder: ""
+
+collections:
+  - name: "pages"
+    label: "Pages"
+    files:
+      - file: "index.html"
+        label: "Home Page"
+        name: "home"
+        fields:
+          - { label: "Title", name: "title", widget: "string" }
+          - { label: "Subtitle", name: "subtitle", widget: "string" }
